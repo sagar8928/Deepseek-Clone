@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: 'BrainBop - Sagarstack',
+  title: 'Deepseek - Sagarstack',
   description: 'Full stack project',
 };
 

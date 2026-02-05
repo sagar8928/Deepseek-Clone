@@ -53,7 +53,7 @@ export default function Home() {
         {!selectedChat || selectedChat.messages.length === 0 ? (
           <div className="flex flex-col items-center gap-3 mt-20">
             <Image src={assets.logo_icon} alt="" className="h-16 w-16" />
-            <p className="text-2xl font-medium">Hi, I am BrainBop.</p>
+            <p className="text-2xl font-medium">Hi, I am Deepseek.</p>
             <p className="text-sm mt-2 text-gray-300">How can I help you?</p>
           </div>
         ) : (
