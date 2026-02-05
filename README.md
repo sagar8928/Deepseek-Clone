@@ -2,6 +2,117 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+✨ Key Features
+
+🤖 AI-powered chat using Groq AI API
+
+🔐 Authentication & authorization via Clerk
+
+⚡ Fast and scalable REST APIs
+
+🧠 Context-based AI responses
+
+📱 Fully responsive, user-friendly UI
+
+🔒 Secure API handling & environment-based secrets
+
+🗄️ Normalized relational database design
+
+🔁 Prisma ORM with migrations
+
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+
+🛠️ Tech Stack
+Frontend
+
+Next.js (App Router)
+
+Tailwind CSS
+
+Clerk Authentication
+
+Backend
+
+Node.js
+
+Express.js
+
+RESTful APIs
+
+Prisma ORM
+
+Database
+
+MySQL
+
+Normalized schema (1NF–3NF)
+
+AI Integration
+
+Groq AI API
+
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+
+
+🧱 Architecture Overview
+Next.js Client
+     |
+     | Authenticated Requests
+     v
+Express.js API
+     |
+     | Business Logic
+     v
+Service Layer
+     |
+     | ORM Abstraction
+     v
+MySQL Database (Prisma Migrations)
+
+Each layer has a clear responsibility.
+This separation is intentional and critical for scalability and security.
+
+
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+
+
+🔐 Security Considerations
+
+Authentication & authorization via Clerk
+
+Protected backend routes
+
+Environment-based secret management
+
+Normalized database design to reduce anomalies
+
+No direct client access to AI or database credentials
+
+Security is treated as a baseline requirement, not an optional feature.
+
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+
+👨‍💻 Author
+
+Sagar Dhebe
+
+Full-Stack Developer
+
+Focused on building production-ready systems, not boilerplate demos.
+
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+
+
 First, run the development server:
 
 ```bash
